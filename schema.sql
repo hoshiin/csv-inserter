@@ -1,0 +1,6 @@
+﻿CREATE TABLE sequencer_reports (
+    get_time TIMESTAMP NOT NULL,
+    speed DOUBLE PRECISION NOT NULL,
+    stop_signal TINYINT NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
